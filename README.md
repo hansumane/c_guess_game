@@ -2,7 +2,7 @@
 
 ## How to use
 
-Compile with *<compiler>* and **make**
+Compile with *compiler* and **make**,
 gcc is the default compiler
 
 ```
