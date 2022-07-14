@@ -14,3 +14,7 @@ Start the game
 ```
 $ ./out-main
 ```
+
+## Example of a game
+
+![Game Example](/example.png "Game Example")
