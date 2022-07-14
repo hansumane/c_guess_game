@@ -3,7 +3,7 @@
 ## How to use
 
 Compile with *compiler* and **make**,
-gcc is the default compiler
+**gcc** is the default compiler
 
 ```
 $ make CC=<compiler>
