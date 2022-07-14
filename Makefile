@@ -1,5 +1,5 @@
-SRC=main.c true_random.c
-DEPS=main.c true_random.c true_random.h
+SRC=src/main.c src/true_random.c
+DEPS=src/main.c src/true_random.c src/true_random.h
 BIN=out-main
 CC=gcc
 FLAG=-Wno-unused-result -std=c99 -Os
