@@ -2,17 +2,18 @@
 
 ## How to use
 
-Compile with *compiler* and **make**,
-**gcc** is the default compiler
+Compile with *compiler*, *flags* and **make**,
+"gcc" is default compiler, and "-Wno-unused-result -std=gnu99 -Os"
+are default flags
 
 ```
-$ make CC=<compiler>
+$ make CC=<compiler> FLAG=<flags>
 ```
 
 Start the game
 
 ```
-$ ./out-main
+$ ./guess_game
 ```
 
 ## Example of a game

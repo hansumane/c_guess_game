@@ -1,1 +1,2 @@
-int true_random(int, int);
+int
+true_random(const int min, const int max);
