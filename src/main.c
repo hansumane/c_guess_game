@@ -7,12 +7,12 @@ int main(void)
 
   do
     {
-      printf("Guess the value between 1 and 100: ");
+      fputs("Guess the value between 1 and 100: ", stdout);
       scanf("%d", &guess); getchar();
       if (guess > value)
-        printf("Your guess is bigger >!\n");
+        puts("Your guess is bigger >!");
       else if (guess < value)
-        printf("Your guess is smaller <!\n");
+        puts("Your guess is smaller <!");
       else
         printf("Congratulations! You have guessed %u!\n", value);
     }
